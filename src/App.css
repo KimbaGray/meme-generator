@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+/* our code */
+
+.mainBlock {
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  font-family: monaco;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  border-radius: 20px;
+  width: 150%;
+}
+
+.image {
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.buttonBlock {
+  margin: auto;
+  width: 250px;
+}
+
+.button {
+  font-size: 18px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-family: monaco;
+  border-radius: 10px;
+  background-color: orange;
+  border-color: orange;
+  color: white;
+}
+
+.footer {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+}
