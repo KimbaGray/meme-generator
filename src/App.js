@@ -140,6 +140,8 @@ class App extends Component {
 
     var nextMemeImage = this.state.image[newIndex];
 
+    console.log(newIndex);
+
     this.setState({
       index: newIndex,
       dispImage: nextMemeImage,
@@ -152,7 +154,7 @@ class App extends Component {
         <h1>Russell's Meme Generator</h1>
         <div className="buttonBlock">
           <button onClick={this.anotherMeme} className="button">
-            Show me another meme
+            Show me <br /> another meme
           </button>
         </div>
         <div className="image">
