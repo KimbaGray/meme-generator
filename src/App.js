@@ -154,7 +154,7 @@ class App extends Component {
         <h1>Russell's Meme Generator</h1>
         <div className="buttonBlock">
           <button onClick={this.anotherMeme} className="button">
-            Show me <br /> another meme
+            <span className="callToAction">SHOW ME ANOTHER MEME</span>
           </button>
         </div>
         <div className="image">
